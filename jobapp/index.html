@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>Job Application: Victor Cervantes</title>
+		<!-- Title limited to ~65 characters-->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<meta name="description" content="This is in class work">
+
+		<meta name="keywords" content="html, job, application, css, web development, neiu">
+	</head>
+	<body>
+		<header>
+			<section class="title">
+				<div class="companyName">
+					<h1>Software Solutions Limited<h1>
+				</div>
+			</section>
+		</header>
+		<div id="container">
+			<article>
+				<h2>Job Application</h2>
+				<section>
+					<form id = "jobApp" action="index.html" method="POST">
+						<div class ="row">
+							<label for "nameInput">Name</label>
+							<input type="text" class = "txt" id = "nameInput" name="first_name" placeholder="First Name" required>
+							<input type="text" class = "txt2" id = "nameInput" name="Middle_initial" placeholder="Middle Initial" maxlength="1">
+							<input type="text" class = "txt" id = "nameInput" name="last_name" placeholder="Last Name" required>
+						</div>
+						<div class="row">
+							<label for "numberInput">Phone Number</label>( 
+							<input type = "number" id = "numberInput"name = "numberInput" placeholder = "000" class = "txt" min = "100" max = "999" maxlength="3" required/> ) - 
+							<input type = "number" id = "numberInput"name = "numberInput" placeholder = "000" class = "txt" min = "100" max = "999" maxlength="3" required/> - 
+							<input type = "number" id = "numberInput"name = "numberInput" placeholder = "0000" class = "txt" min = "1000" max = "9999"maxlength="4" required/>
+						</div>
+						<div class="row">
+							<label for="emailInput">Email</label>
+							<input type="email" id="emailInput" class="txt" name="emailInput" placeholder="Enter valid email address" required/>
+						</div>
+						<div class="row">
+							<label for = "chkLabel">Gender</label>
+							<label for="radio1" class="chkLabel">Male</label>
+							<input type="radio" name="radio" id="radio1"/>
+							<label for="radio2" class="chkLabel">Female</label>
+							<input type="radio" name="radio" id="radio2"/>
+							<label for="radio3" class="chkLabel">Other</label>
+							<input type="radio" name="radio" id="radio3"/>
+						</div>
+						<div class="row">
+							<label for="dropdown">Position</label>
+							<!--select list-->
+							<select id="dropdown" name="dropdown" class="txt" required>
+								<option disabled>--Select One--</option>
+								<option value="1">Web Developer</option>
+								<option value="2" selected>Application Developer</option>
+								<option value="3">Database Developer</option>
+								<option value="4">Project Manager</option>
+							</select>
+						</div>
+						<div class="row">
+							<label>Previous Experience (Check all that apply)</label>
+							<label for="chk1" class="chkLabel">Front End Development</label>
+							<input type="checkbox" name="chk1" id="chk1"/>
+							<label for="chk2" class="chkLabel">Back End Development</label>
+							<input type="checkbox" name="chk2" id="chk2"/>
+							<label for="chk3" class="chkLabel">Database Development</label>
+							<input type="checkbox" name="chk3" id="chk3"/>							
+						</div>
+						<div class="row">
+							<label for "numberInput">Years of Experience</label> 
+							<input type = "number" id = "numberInput"name = "numberInput" class = "txt" min = "1" max = "10" maxlength="1" />
+						</div>
+						<div class="row">
+							<label for="fileInput">Resume</label>
+							<input type="file" id="fileInput" name=fileInput" class="txt" />
+						</div>
+						<div class="row">
+							<label for="fileInput">Cover Letter</label>
+							<input type="file" id="fileInput" name=fileInput" class="txt" />
+						</div>
+						<div class="row">
+							<label for="txtArea">Optional</label>
+							<!--textarea-->
+							<textarea id="txtArea" name="txtArea" rows="3" cols="20" placeholder="Paste Cover Letter"></textarea>
+						</div>
+						<div class="row">
+							<label for="txtArea2">Comments</label>
+							<!--textarea-->
+							<textarea id="txtArea2" name="txtArea2"></textarea>
+						</div>
+						<div class="row">
+							<div>
+								<input type="submit" class="btn" value="Submit" />
+							</div>
+						</div>
+					</form>
+				</section>
+			</article>
+		</div>
+		<div class="clear"></div>
+	</body>
+</html>

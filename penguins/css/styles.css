@@ -1,0 +1,14 @@
+body,html{
+	background-color: lightblue;
+}
+#page{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title{
+	background-image: url('../images/penguin_title.png');
+	width:auto;
+	height: auto;
+}

@@ -1,0 +1,26 @@
+/*
+	Victor Cervantes
+	CS300
+	Article 
+*/
+body {
+		background-color: darkblue;
+		color: yellow;
+		font-family: sans-serif;
+		line-height: 1.6;
+		text-shadow: 1px 1px black;
+}
+div{
+	font-family: sans-serif;
+}
+header{
+	font-family: cursive;
+}
+
+h1 {
+	font-variant: small-caps;
+	color: orange;
+}
+.tag{
+	font-variant: small-caps;
+}

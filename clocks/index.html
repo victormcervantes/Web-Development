@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Clocks: Victor Cervantes</title>
+		<!-- Title limited to ~65 characters-->
+		<link rel="shortcut icon" href="images/clock.png">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<meta name="description" content="This is in class work">
+		<meta name="keywords" content="html, javascript, web development, neiu">
+		<script src = "scripts/scripts.js"></script>
+	</head>
+	<body onload="setClock(), stopWatch()">
+		<section id="clocks">
+				<div id="clock" class="content left">
+					<div>
+						<h2>Clock</h2>
+					</div>
+					<span id="clockContent">
+					</span>
+				</div>
+				<div id="stopwatch" class="content right">
+					<div>
+						<h2>Stopwatch</h2>
+					</div>
+					<div id="stopwatchContent">
+						<span id="displayScreen">0.000</span><br>
+						<button id="startButton" class = "stopwatchButton">Start</button>
+						<button id="stopButton" class = "stopwatchButton">Stop</button>
+						<button id="resetButton" class = "stopwatchButton">Reset</button>
+				</div>
+			</section>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+table{
+	width: 1000px;
+	height: 250px;
+	border-collapse: collapse;
+	font-family: Arial;
+	text-align: center;
+}
+
+th,tr,td {
+	border: 3px solid lightgrey;
+	padding: 20px;
+	width: 70px;
+}
+th{
+	border: 3px solid black;
+}
+#first, #third, #fourth, #fifth, #sixth, #seventh{
+	background: #D7D3AF;
+}
+#second{
+	background: yellow;
+	border-top: 4Px solid black;
+	border-bottom: 	4px solid black;
+}

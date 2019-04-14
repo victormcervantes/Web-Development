@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'digital-7';
+  src: url('../fonts/digital-7/digital-7.ttf');
+}
+
+#clocks{
+	text-align: center;
+	font-family: sans-serif;
+}
+#clockContent{
+  color: #ffffff;
+  background-color: #000000;
+  font-family: 'digital-7', sans-serif;
+  font-size: 5rem;
+}
+@media screen and (min-width: 800px) {
+  #clock, #stopwatch {
+    width: 100vw;
+	height: 20vh;
+  }
+}
+#displayScreen{
+	color: #ffffff;
+ 	background-color: #000000;
+ 	font-family: 'digital-7', sans-serif;
+ 	font-size: 5rem;
+}
+#clocks{
+	width: 100vw;
+	height: 50vh;
+	font-size: 2rem;
+}
+#clock{
+	width: 50vw;
+	height: 20vh;
+	float: left;
+
+}
+#stopwatch{
+	width: 50vw;
+	height: 20vh;
+	float: left;
+}
+#startButton{
+	background-color: green;
+}
+#stopButton{
+	background-color: red;
+}
+#resetButton{
+	background-color: lightgray;
+}
+.stopwatchButton{
+	width: 12vw;
+	height: 6vh;
+	font-size: 1.5rem;
+	border-radius: 25%;
+}
